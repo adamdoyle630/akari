@@ -49,5 +49,6 @@ public class AppLauncher extends Application {
     // Show the stage
     stage.setTitle("Play Akari!");
     stage.show();
+
   }
 }
