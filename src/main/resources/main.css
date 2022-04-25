@@ -1,0 +1,77 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+
+.layout {
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 25px;
+}
+
+.title {
+    -fx-text-alignment: center;
+    -fx-font-size: 20px;
+}
+
+.rect-plain {
+    -fx-fill: transparent;
+}
+
+.rect-filled {
+    -fx-fill: grey;
+}
+
+.cell-plain {
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+.cell-filled {
+    -fx-fill: black;
+    -fx-stroke: black;
+}
+
+.cell-clue {
+    -fx-fill: grey;
+    -fx-stroke: black;
+}
+
+.cell-lit {
+    -fx-fill: #FFFAA0;
+}
+
+.cell-lit-illegal {
+    -fx-fill: red;
+}
+
+.clue-text {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+
+.clue-satisfied {
+    -fx-fill: green;
+}
+
+.solved-message {
+    -fx-font-size: 14px;
+    -fx-text-fill: green;
+}
+
+.custom-button {
+    -fx-background-color:
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
